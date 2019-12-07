@@ -38,3 +38,13 @@ header h2 {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8; }
+  #reserveModal .modal-header h3 {
+    color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD; }
+  #loginModal .modal-header h3 {
+    color: white; }

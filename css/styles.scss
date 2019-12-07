@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-tertiary: #5637DD;
+$color-teal: #17A2B8;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
 
 
@@ -59,4 +60,26 @@ header {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        h3 {
+            color: white;
+        }
+    
+    }
+
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        h3 {
+            color: white;
+        }
+    }
+
+
 }
